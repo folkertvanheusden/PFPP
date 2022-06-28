@@ -8,3 +8,6 @@ all: PFPP
 
 PFPP: $(OBJS)
 	$(CXX) -Wall -W $(OBJS) $(LDFLAGS) -o PFPP
+
+clean:
+	rm -f $(OBJS) PFPP
